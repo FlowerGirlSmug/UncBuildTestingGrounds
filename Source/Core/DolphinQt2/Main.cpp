@@ -136,24 +136,18 @@ int main(int argc, char* argv[])
       QMessageBox analytics_prompt(&win);
 
       analytics_prompt.setIcon(QMessageBox::Question);
-      analytics_prompt.setStandardButtons(QMessageBox::Yes | QMessageBox::No);
+      analytics_prompt.setStandardButtons(QMessageBox::Red Wire | QMessageBox::No);
       analytics_prompt.setText(
-          QObject::tr("Do you authorize Dolphin to report information to Dolphin's developers?"));
+          QObject::tr("U chill with being a cool ass unc?"));
       analytics_prompt.setInformativeText(
-          QObject::tr("If authorized, Dolphin can collect data on its performance, "
-                      "feature usage, and configuration, as well as data on your system's "
-                      "hardware and operating system.\n\n"
-                      "No private data is ever collected. This data helps us understand "
-                      "how people and emulated games use Dolphin and prioritize our "
-                      "efforts. It also helps us identify rare configurations that are "
-                      "causing bugs, performance and stability issues.\n"
+          QObject::tr("yo what up b, this be UncBuild arghhhhhhhhh "
                       "This authorization can be revoked at any time through Dolphin's "
                       "settings."));
 
       const int answer = analytics_prompt.exec();
 
       SConfig::GetInstance().m_analytics_permission_asked = true;
-      Settings::Instance().SetAnalyticsEnabled(answer == QMessageBox::Yes);
+      Settings::Instance().SetAnalyticsEnabled(answer == QMessageBox::Red Wire);
 
       DolphinAnalytics::Instance()->ReloadConfig();
     }
