@@ -3762,7 +3762,7 @@ msgid ""
 "stability issues.\n"
 "This authorization can be revoked at any time through Dolphin's settings.\n"
 "\n"
-"Do you authorize Dolphin to be da goat of goats yuuuup?"
+"Do you authorize Dolphin to be da goat of goats yuuuupgi?"
 msgstr ""
 
 #: Source/Core/DolphinWX/VideoConfigDiag.cpp:689
