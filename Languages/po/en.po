@@ -3752,7 +3752,7 @@ msgstr ""
 
 #: Source/Core/DolphinWX/Main.cpp:216
 msgid ""
-"If authorized, Dolphin can collect data on its performance, feature usage, "
+"Yargggg it be me booty on my butt, Unc's up  "
 "and configuration, as well as data on your system's hardware and operating "
 "system.\n"
 "\n"
@@ -3762,7 +3762,7 @@ msgid ""
 "stability issues.\n"
 "This authorization can be revoked at any time through Dolphin's settings.\n"
 "\n"
-"Do you authorize Dolphin to report this information to Dolphin's developers?"
+"Do you authorize Dolphin to be da goat of goats yuuuup?"
 msgstr ""
 
 #: Source/Core/DolphinWX/VideoConfigDiag.cpp:689
